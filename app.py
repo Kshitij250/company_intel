@@ -151,7 +151,7 @@ except ImportError:
 
 GST_API_BASE  = os.getenv("GST_API_BASE_URL", "https://sheet.gstincheck.co.in/check")
 GST_API_KEY   = os.getenv("GST_API_KEY", "")
-GROQ_API_KEY  = os.getenv("GROQ_API_KEY", "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")
+GROQ_API_KEY  = os.getenv("GROQ_API_KEY", " ")
 
 CHROMA_DIR    = os.path.join(os.path.dirname(__file__), "chroma_store")
 os.makedirs(CHROMA_DIR, exist_ok=True)
